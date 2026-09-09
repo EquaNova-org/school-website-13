@@ -1,0 +1,36 @@
+.pathfwd__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.pathfwd__media {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-top: 2px solid var(--brass);
+  order: -1;
+}
+
+.pathfwd__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pathfwd__copy { max-width: 560px; }
+
+.pathfwd__title {
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  margin: 0 0 22px;
+}
+
+.pathfwd__copy p { margin: 0 0 16px; }
+
+@media (min-width: 960px) {
+  .pathfwd__grid {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 72px;
+  }
+  .pathfwd__media { order: 2; }
+}

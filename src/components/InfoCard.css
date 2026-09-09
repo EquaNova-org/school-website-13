@@ -1,0 +1,42 @@
+.info-card {
+  position: relative;
+  border-top: 2px solid var(--brass);
+  padding: 28px 22px 24px;
+  background: rgba(247, 246, 242, 0.03);
+}
+
+.section--navy .info-card {
+  background: rgba(247, 246, 242, 0.04);
+}
+
+.info-card--stat .info-card__value {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  font-weight: 600;
+  color: var(--paper);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.info-card--stat .info-card__title {
+  font-size: 14px;
+  color: rgba(247, 246, 242, 0.72);
+  line-height: 1.45;
+  max-width: 28ch;
+}
+
+.info-card--value {
+  border-top-color: var(--brass);
+}
+
+.info-card--value .info-card__heading {
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+
+.info-card--value .info-card__body {
+  font-size: 14.5px;
+  margin: 0;
+  max-width: none;
+}

@@ -1,0 +1,50 @@
+.achievements__stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--navy-line);
+  margin-bottom: 84px;
+}
+
+.achievements__stats .info-card {
+  background: var(--navy-deep);
+  border-top: none;
+}
+
+.achievements__story {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.achievements__story-title {
+  font-size: clamp(1.6rem, 2.8vw, 2.1rem);
+  color: var(--paper);
+  margin: 0 0 20px;
+}
+
+.achievements__story-copy p { margin: 0 0 14px; }
+
+.achievements__story-media {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-top: 2px solid var(--brass);
+}
+
+.achievements__story-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 720px) {
+  .achievements__stats { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (min-width: 960px) {
+  .achievements__story {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 72px;
+  }
+}

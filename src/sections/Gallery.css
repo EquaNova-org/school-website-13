@@ -1,0 +1,17 @@
+.gallery { padding-bottom: 0; }
+
+.gallery__head { margin-bottom: 44px; }
+
+.gallery__title {
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  color: var(--paper);
+}
+
+.gallery__wall {
+  height: 620px;
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .gallery__wall { height: 760px; }
+}
