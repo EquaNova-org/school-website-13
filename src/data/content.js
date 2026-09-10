@@ -56,7 +56,7 @@ export const content = {
     footer: {
       label: 'Get in Touch',
       name: 'School No. 13',
-      address: 'Yulduz neighbourhood, Zarafshan, Navoi Region, Uzbekistan',
+      address: 'Navruz neighbourhood Mustakillik street 51-A, Zarafshan, Navoi Region, Uzbekistan',
       postcode: '210300',
       emailLabel: 'Email',
       closing: 'We are always glad to stay connected with our students, parents, teachers, and community.',
@@ -119,7 +119,7 @@ export const content = {
     footer: {
       label: 'Biz bilan bog\u2018laning',
       name: '13-sonli maktab',
-      address: 'Yulduz mahallasi, Zarafshon shahri, Navoiy viloyati, O\u2018zbekiston',
+      address: 'Navro'z mahallasi Mustaqillik ko'chasi 51-A uy, Zarafshon shahri, Navoiy viloyati, O\u2018zbekiston',
       postcode: '210300',
       emailLabel: 'Email',
       closing: 'O\u2018quvchilarimiz, ota-onalar, o\u2018qituvchilar va jamoatchilik bilan doimo aloqada bo\u2018lishdan mamnunmiz.',
